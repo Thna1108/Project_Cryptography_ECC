@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  chall:
+    build:
+      context: .
+    volumes:
+      - ../attack_frey_ruck/output:/output
+    ports:
+      - 6004:6004
+    restart: always

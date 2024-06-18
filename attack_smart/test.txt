@@ -1,0 +1,3 @@
+1. Creat digital certificate and setting https
+- Register an acount and a domain at: https://dash.infinityfree.com/accounts
+- Register an acount and a domain 

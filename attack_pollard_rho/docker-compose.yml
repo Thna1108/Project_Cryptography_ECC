@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  chall:
+    build:
+      context: .
+    volumes:
+      - ../attack_pollard_rho/output:/output
+    ports:
+      - 6003:6003
+    restart: always

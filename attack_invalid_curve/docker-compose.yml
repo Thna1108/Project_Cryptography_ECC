@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  chall:
+    build:
+      context: .
+    ports:
+      - 6001:6001
+    environment:
+      - FLAG=MMH{implementation_invalid_curve_attack_successful_nIcE!}
+    restart: always
